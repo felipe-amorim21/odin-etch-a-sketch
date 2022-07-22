@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+}
+
+.container div{
+    border: 1px solid black;
+
+}
+
+.container>div:nth-child(15n + 1) {
+    width: 100%;
+    border: 0;
+    height: 0;
+  }
+
+  .black{
+    background-color: black;
+  }
